@@ -10,17 +10,13 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #04107c81;
+  background: #d80a0a;
   color: #1102017c;
 }
 
-/* 
-What happens when we set the display property to flex?
-The flex container becomes flexible 
-*/
 nav {
   display: flex;
-  background-color: #054683a8;
+  background-color: #0d22e0a8;
 }
 
 nav a {
@@ -30,10 +26,10 @@ nav a {
   text-align: center;
 }
 
-/* 
-What is the flex-wrap property?
-It specifies whether the flex items should wrap or not 
-*/
+nav a:hover {
+  background-color: #c4e762;
+  color: black;
+}
 main {
   display: flex;
   flex-wrap: wrap;
