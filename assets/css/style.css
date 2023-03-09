@@ -11,7 +11,7 @@ header {
   padding: 40px;
   text-align: center;
   background: #04107c81;
-  color: #f51b0c7c;
+  color: #1102017c;
 }
 
 /* 
@@ -37,6 +37,7 @@ It specifies whether the flex items should wrap or not
 main {
   display: flex;
   flex-wrap: wrap;
+  padding: 30px;
 }
 
 aside {
@@ -57,7 +58,7 @@ footer {
 .products {
   flex: 4;
   background-color: #4a57c798;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -67,7 +68,7 @@ footer {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
-  padding: 10px;
+  padding: 30px;
   flex: 0 0 400px;
 }
 
@@ -81,6 +82,7 @@ footer {
 
 .card img {
   width: 100%;
+  height: 65%;
 }
 
 
